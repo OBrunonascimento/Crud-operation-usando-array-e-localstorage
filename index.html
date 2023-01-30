@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos - Tprime</title>
+    <link rel="stylesheet" href="stylecss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <main>
+        <h1>Lista de contatos</h1>
+
+        <div class="container">
+            <table class="table" id="tbl"></table>
+        </div>
+
+    </main>
+    <div class="formulario">
+        
+        <form id="form">        
+                <label>Identificação</label>
+                <input type="number" name="codigo" id="codigo">
+     
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+                        
+                <label>E-mail</label>
+                <input type="text" name="email" id="email">
+                      
+                <label>Telefone</label>
+                <input type="number" name="tel" id="tel">
+                        
+                <button  id="btn-lista">Salvar</button>        
+        </form>
+
+    </div>
+    <script src="crud.js"></script>
+</body>
+</html>
